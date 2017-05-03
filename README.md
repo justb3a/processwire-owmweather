@@ -35,7 +35,6 @@ OpenWeatherMap supports the following languages:
 ## Example
 
 ![Example Output](https://raw.githubusercontent.com/justb3a/processwire-owmweather/master/screen.png)
-![Example Output](https://raw.githubusercontent.com/justb3a/processwire-owmweather/master/screen.png)
 
 ```php
 $weather = $modules->get('Weather')->getWeather('Berlin');
