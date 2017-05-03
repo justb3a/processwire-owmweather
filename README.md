@@ -1,8 +1,8 @@
-# ProcessWire Weather
+# ProcessWire OwmWeather
 
-## OpenWeatherMap PHP API
+## OpenWeatherMap
 
-ProcessWire module to retrieve, parse and display weather data from OpenWeatherMap.org.
+ProcessWire module to retrieve, parse and display weather data from [OpenWeatherMap.org](https://openweathermap.org).
 
 - @see: [OpenWeatherMap](https://www.openweathermap.org/)
 - @see: [OpenWeatherMap-PHP-Api](https://github.com/cmfcmf/OpenWeatherMap-PHP-Api)
@@ -37,7 +37,7 @@ OpenWeatherMap supports the following languages:
 ![Example Output](https://raw.githubusercontent.com/justb3a/processwire-owmweather/master/screen.png)
 
 ```php
-$weather = $modules->get('Weather')->getWeather('Berlin');
+$weather = $modules->get('OwmWeather')->getWeather('Berlin');
 ```
 
 If you do not pass any language code, the language is determined using the user's language.  
@@ -46,7 +46,7 @@ If it equals 'default' or doesn't match any supported language code, **"en"** wi
 You could also pass the desired language as a second argument:
 
 ```php
-$weather = $modules->get('Weather')->getWeather('Berlin', 'it');
+$weather = $modules->get('OwmWeather')->getWeather('Berlin', 'it');
 ```
 
 - @see: [Example API response](https://openweathermap.org/weather-data)
